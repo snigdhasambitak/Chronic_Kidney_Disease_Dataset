@@ -21,7 +21,7 @@
 * The range of numeric attributes varies.
   * Example wbcc is in thousands, bgr is in hundreds and sg is in single digits. This demands scaling.
 * At the face value, there are multiple attributes that appear to be correlated.
-* Example hemoglobin, rbc count. Sugar , blood glucose levels and Diabetes mellitus. Which demands for a correlation analysis
+  * Example hemoglobin, rbc count, Sugar , blood glucose levels and Diabetes mellitus. Which demands for a correlation analysis
 
 ## Pre-Processing Techniques
 
@@ -67,4 +67,4 @@ Although the above classifiers are intuitively expected to work well for the pre
 * Using Random Forest model we can see from the output that there was a slight improvement in the results. Our roc_auc score improved from .999 to .997. The downside is that our number of false positives increased slightly (but false negatives declined)
 
 
-* Conclusion: We would like to conclude by saying that for the given dataset analysis, we found SVM to be best method for building a predictive model.
+Conclusion: We would like to conclude by saying that for the given dataset analysis, we found SVM to be best method for building a predictive model.
